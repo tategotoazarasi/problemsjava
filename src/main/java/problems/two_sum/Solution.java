@@ -1,5 +1,5 @@
-/**
- *
+/*
+
  */
 package problems.two_sum;
 
