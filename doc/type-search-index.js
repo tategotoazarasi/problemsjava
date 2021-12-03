@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"problems.two_sum","l":"Solution"}];updateSearchResults();
+typeSearchIndex = [{"l":"Solution","h":"","u":""},{"l":"SolutionTest","h":"","u":""},{"l":"所有类","h":"","u":"allclasses-index.html"}]

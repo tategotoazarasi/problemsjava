@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"problems.two_sum"},{"l":"所有程序包","u":"allpackages-index.html"}];updateSearchResults();
+packageSearchIndex = [{"l":"problems.reverse_integer","h":"","u":""},{"l":"problems.two_sum","h":"","u":""},{"l":"所有程序包","h":"","u":"allpackages-index.html"}]
