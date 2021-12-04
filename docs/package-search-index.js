@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"problems.palindrome_number","h":"","u":""},{"l":"problems.reverse_integer","h":"","u":""},{"l":"problems.roman_to_integer","h":"","u":""},{"l":"problems.two_sum","h":"","u":""},{"l":"所有程序包","h":"","u":"allpackages-index.html"}]
