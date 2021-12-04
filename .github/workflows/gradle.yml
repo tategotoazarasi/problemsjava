@@ -43,7 +43,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Generate Javadoc
-      run: javadoc -private -splitindex -use -author -version -d ./doc
+      run: cd ./src/main && find . -type f -name "*.java" | xargs javadoc -private -splitindex -use -author -version -d ../../doc -classpath
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
