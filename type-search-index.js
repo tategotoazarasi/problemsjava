@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"problems.palindrome_number","l":"Solution"},{"p":"problems.reverse_integer","l":"Solution"},{"p":"problems.two_sum","l":"Solution"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"problems.longest_common_prefix","l":"Solution"},{"p":"problems.palindrome_number","l":"Solution"},{"p":"problems.reverse_integer","l":"Solution"},{"p":"problems.two_sum","l":"Solution"}]
