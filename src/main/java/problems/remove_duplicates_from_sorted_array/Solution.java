@@ -18,7 +18,7 @@ public class Solution {
             for (int k = 0; i + k + 1 < nums.length; k++) {
                 nums[i + k + 1] = nums[Math.min(j + k, nums.length - 1)];
             }
-            ret -= j-i-1;
+            ret -= j - i - 1;
         }
         return ret;
     }

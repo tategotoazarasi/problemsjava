@@ -5,7 +5,6 @@ package problems.two_sum;
 
 /**
  * @author wzh1997
- *
  */
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
