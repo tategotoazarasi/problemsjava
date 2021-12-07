@@ -2,6 +2,7 @@ problems.longest_common_prefix
 problems.merge_two_sorted_lists
 problems.palindrome_number
 problems.remove_duplicates_from_sorted_array
+problems.remove_element
 problems.reverse_integer
 problems.roman_to_integer
 problems.two_sum
