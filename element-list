@@ -6,4 +6,5 @@ problems.remove_duplicates_from_sorted_array
 problems.remove_element
 problems.reverse_integer
 problems.roman_to_integer
+problems.search_insert_position
 problems.two_sum
