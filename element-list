@@ -1,5 +1,6 @@
 problems.implement_strstr
 problems.longest_common_prefix
+problems.maximum_subarray
 problems.merge_two_sorted_lists
 problems.palindrome_number
 problems.remove_duplicates_from_sorted_array
