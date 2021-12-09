@@ -1,4 +1,5 @@
 problems.implement_strstr
+problems.length_of_last_word
 problems.longest_common_prefix
 problems.maximum_subarray
 problems.merge_two_sorted_lists
