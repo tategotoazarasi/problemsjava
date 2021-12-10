@@ -27,7 +27,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10};
+var data = {"i0":10,"i1":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -116,7 +116,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <!-- ======== START OF CLASS DATA ======== -->
 <main role="main">
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">problems.longest_common_prefix</a></div>
+<div class="subTitle"><span class="packageLabelInType">Package</span>&nbsp;<a href="package-summary.html">problems.sqrtx</a></div>
 <h2 title="Class Solution" class="title">Class Solution</h2>
 </div>
 <div class="contentContainer">
@@ -124,7 +124,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>problems.longest_common_prefix.Solution</li>
+<li>problems.sqrtx.Solution</li>
 </ul>
 </li>
 </ul>
@@ -176,8 +176,13 @@ extends java.lang.Object</pre>
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>java.lang.String</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#longestCommonPrefix(java.lang.String%5B%5D)">longestCommonPrefix</a></span>&#8203;(java.lang.String[]&nbsp;strs)</code></th>
+<td class="colFirst"><code>float</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#invSqrt(float)">invSqrt</a></span>&#8203;(float&nbsp;x)</code></th>
+<td class="colLast">&nbsp;</td>
+</tr>
+<tr id="i1" class="rowColor">
+<td class="colFirst"><code>int</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#mySqrt(int)">mySqrt</a></span>&#8203;(int&nbsp;x)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </table>
@@ -223,13 +228,22 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="longestCommonPrefix(java.lang.String[])">
+<a id="mySqrt(int)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>mySqrt</h4>
+<pre class="methodSignature">public&nbsp;int&nbsp;mySqrt&#8203;(int&nbsp;x)</pre>
+</li>
+</ul>
+<a id="invSqrt(float)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>longestCommonPrefix</h4>
-<pre class="methodSignature">public&nbsp;java.lang.String&nbsp;longestCommonPrefix&#8203;(java.lang.String[]&nbsp;strs)</pre>
+<h4>invSqrt</h4>
+<pre class="methodSignature">public&nbsp;float&nbsp;invSqrt&#8203;(float&nbsp;x)</pre>
 </li>
 </ul>
 </li>
