@@ -1,4 +1,5 @@
 problems.add_binary
+problems.climbing_stairs
 problems.implement_strstr
 problems.length_of_last_word
 problems.longest_common_prefix
