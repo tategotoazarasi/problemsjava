@@ -8,6 +8,7 @@ problems.merge_two_sorted_lists
 problems.palindrome_number
 problems.plus_one
 problems.remove_duplicates_from_sorted_array
+problems.remove_duplicates_from_sorted_list
 problems.remove_element
 problems.reverse_integer
 problems.roman_to_integer
