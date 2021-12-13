@@ -4,6 +4,7 @@ leetcode.implement_strstr
 leetcode.length_of_last_word
 leetcode.longest_common_prefix
 leetcode.maximum_subarray
+leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
 leetcode.palindrome_number
 leetcode.plus_one
