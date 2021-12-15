@@ -1,5 +1,7 @@
 package leetcode.merge_two_sorted_lists;
 
+import leetcode.common.ListNode;
+
 public class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode list = new ListNode();
