@@ -13,6 +13,7 @@ leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
 leetcode.minimum_depth_of_binary_tree
 leetcode.palindrome_number
+leetcode.path_sum
 leetcode.plus_one
 leetcode.remove_duplicates_from_sorted_array
 leetcode.remove_duplicates_from_sorted_list
