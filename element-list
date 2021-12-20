@@ -14,6 +14,7 @@ leetcode.merge_two_sorted_lists
 leetcode.minimum_depth_of_binary_tree
 leetcode.palindrome_number
 leetcode.pascals_triangle
+leetcode.pascals_triangle_ii
 leetcode.path_sum
 leetcode.plus_one
 leetcode.remove_duplicates_from_sorted_array
