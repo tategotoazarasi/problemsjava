@@ -48,7 +48,7 @@ jobs:
           arguments: build
 
       - name: Generate Javadoc
-        run: cd ./src/ && find . -type f -name "*.java" | xargs javadoc -private -splitindex -use -author -version -link https://docs.oracle.com/en/java/javase/11/docs/api/ -d ../../doc -classpath
+        run: cd ./src/main && find . -type f -name "*.java" | xargs javadoc -private -splitindex -use -author -version -link https://docs.oracle.com/en/java/javase/11/docs/api/ -d ../../doc -classpath
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
