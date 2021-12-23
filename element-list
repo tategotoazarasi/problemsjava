@@ -1,6 +1,7 @@
 leetcode.add_binary
 leetcode.balanced_binary_tree
 leetcode.binary_tree_inorder_traversal
+leetcode.binary_tree_postorder_traversal
 leetcode.binary_tree_preorder_traversal
 leetcode.climbing_stairs
 leetcode.common
