@@ -14,6 +14,7 @@ leetcode.maximum_depth_of_binary_tree
 leetcode.maximum_subarray
 leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
+leetcode.min_stack
 leetcode.minimum_depth_of_binary_tree
 leetcode.palindrome_number
 leetcode.pascals_triangle
