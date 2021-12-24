@@ -33,5 +33,6 @@ leetcode.single_number
 leetcode.sqrtx
 leetcode.symmetric_tree
 leetcode.two_sum
+leetcode.two_sum_ii_input_array_is_sorted
 leetcode.valid_palindrome
 leetcode.valid_parentheses
