@@ -7,6 +7,7 @@ leetcode.climbing_stairs
 leetcode.common
 leetcode.convert_sorted_array_to_binary_search_tree
 leetcode.implement_strstr
+leetcode.intersection_of_two_linked_lists
 leetcode.length_of_last_word
 leetcode.linked_list_cycle
 leetcode.longest_common_prefix
