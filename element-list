@@ -1,3 +1,4 @@
+leetcode.a_number_after_a_double_reversal
 leetcode.add_binary
 leetcode.balanced_binary_tree
 leetcode.binary_tree_inorder_traversal
@@ -7,9 +8,11 @@ leetcode.check_if_a_parentheses_string_can_be_valid
 leetcode.climbing_stairs
 leetcode.common
 leetcode.convert_sorted_array_to_binary_search_tree
+leetcode.execution_of_all_suffix_instructions_staying_in_a_grid
 leetcode.find_all_possible_recipes_from_given_supplies
 leetcode.implement_strstr
 leetcode.intersection_of_two_linked_lists
+leetcode.intervals_between_identical_elements
 leetcode.length_of_last_word
 leetcode.linked_list_cycle
 leetcode.longest_common_prefix
