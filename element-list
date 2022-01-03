@@ -1,6 +1,7 @@
 leetcode.a_number_after_a_double_reversal
 leetcode.add_binary
 leetcode.balanced_binary_tree
+leetcode.best_time_to_buy_and_sell_stock
 leetcode.binary_tree_inorder_traversal
 leetcode.binary_tree_postorder_traversal
 leetcode.binary_tree_preorder_traversal
@@ -42,3 +43,4 @@ leetcode.two_sum
 leetcode.two_sum_ii_input_array_is_sorted
 leetcode.valid_palindrome
 leetcode.valid_parentheses
+lintcode.get_length
