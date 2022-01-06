@@ -15,6 +15,7 @@ public class Solution {
                 result[list.get(0)] += i - list.get(0);
             }
             for (int i = 1; i < list.size(); i++) {
+                //相同数字右移一位的增加量
                 result[list.get(i)] = result[list.get(i - 1)] + (2L * i - list.size()) * (list.get(i) - list.get(i - 1));
             }
         }
