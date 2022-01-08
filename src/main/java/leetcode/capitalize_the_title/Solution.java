@@ -1,5 +1,8 @@
 package leetcode.capitalize_the_title;
 
+/**
+ * LeetCode 5960. 将标题首字母大写
+ */
 public class Solution {
     public String capitalizeTitle(String title) {
         StringBuilder sb = new StringBuilder();
