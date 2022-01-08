@@ -5,6 +5,7 @@ leetcode.best_time_to_buy_and_sell_stock
 leetcode.binary_tree_inorder_traversal
 leetcode.binary_tree_postorder_traversal
 leetcode.binary_tree_preorder_traversal
+leetcode.capitalize_the_title
 leetcode.check_if_a_parentheses_string_can_be_valid
 leetcode.climbing_stairs
 leetcode.common
@@ -17,9 +18,11 @@ leetcode.intervals_between_identical_elements
 leetcode.length_of_last_word
 leetcode.linked_list_cycle
 leetcode.longest_common_prefix
+leetcode.longest_palindrome_by_concatenating_two_letter_words
 leetcode.maximum_depth_of_binary_tree
 leetcode.maximum_number_of_words_found_in_sentences
 leetcode.maximum_subarray
+leetcode.maximum_twin_sum_of_a_linked_list
 leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
 leetcode.min_stack
