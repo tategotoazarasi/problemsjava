@@ -25,6 +25,7 @@ leetcode.maximum_subarray
 leetcode.maximum_twin_sum_of_a_linked_list
 leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
+leetcode.min_stack
 leetcode.minimum_depth_of_binary_tree
 leetcode.palindrome_number
 leetcode.pascals_triangle
@@ -40,6 +41,7 @@ leetcode.same_tree
 leetcode.search_insert_position
 leetcode.single_number
 leetcode.sqrtx
+leetcode.sum_of_all_odd_length_subarrays
 leetcode.symmetric_tree
 leetcode.two_sum
 leetcode.two_sum_ii_input_array_is_sorted
