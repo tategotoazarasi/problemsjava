@@ -7,10 +7,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class SolutionTest {
 
-    @Test
-    void isPalindrome() {
-        Solution sol = new Solution();
-        assertTrue(sol.isPalindrome("A man, a plan, a canal: Panama"));
-        assertFalse(sol.isPalindrome("race a car"));
-    }
+	@Test
+	void isPalindrome() {
+		Solution sol = new Solution();
+		assertTrue(sol.isPalindrome("A man, a plan, a canal: Panama"));
+		assertFalse(sol.isPalindrome("race a car"));
+	}
 }

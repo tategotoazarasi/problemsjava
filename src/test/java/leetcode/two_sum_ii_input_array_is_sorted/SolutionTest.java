@@ -6,11 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class SolutionTest {
 
-    @Test
-    void twoSum() {
-        Solution sol = new Solution();
-        assertArrayEquals(new int[]{1, 2}, sol.twoSum(new int[]{2, 7, 11, 15}, 9));
-        assertArrayEquals(new int[]{1, 3}, sol.twoSum(new int[]{2, 3, 4}, 6));
-        assertArrayEquals(new int[]{1, 2}, sol.twoSum(new int[]{-1, 0}, -1));
-    }
+	@Test
+	void twoSum() {
+		Solution sol = new Solution();
+		assertArrayEquals(new int[]{1, 2}, sol.twoSum(new int[]{2, 7, 11, 15}, 9));
+		assertArrayEquals(new int[]{1, 3}, sol.twoSum(new int[]{2, 3, 4}, 6));
+		assertArrayEquals(new int[]{1, 2}, sol.twoSum(new int[]{-1, 0}, -1));
+	}
 }

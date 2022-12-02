@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class SolutionTest {
 
-    @Test
-    void isSameAfterReversals() {
-        Solution sol = new Solution();
-        assertTrue(sol.isSameAfterReversals(526));
-        assertFalse(sol.isSameAfterReversals(1800));
-        assertTrue(sol.isSameAfterReversals(0));
-    }
+	@Test
+	void isSameAfterReversals() {
+		Solution sol = new Solution();
+		assertTrue(sol.isSameAfterReversals(526));
+		assertFalse(sol.isSameAfterReversals(1800));
+		assertTrue(sol.isSameAfterReversals(0));
+	}
 }
