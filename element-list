@@ -34,6 +34,7 @@ leetcode.palindrome_number
 leetcode.pascals_triangle
 leetcode.pascals_triangle_ii
 leetcode.path_sum
+leetcode.perform_string_shifts
 leetcode.plus_one
 leetcode.remove_duplicates_from_sorted_array
 leetcode.remove_duplicates_from_sorted_list
