@@ -1,5 +1,6 @@
 leetcode.a_number_after_a_double_reversal
 leetcode.add_binary
+leetcode.add_two_polynomials_represented_as_linked_lists
 leetcode.balanced_binary_tree
 leetcode.best_time_to_buy_and_sell_stock
 leetcode.binary_tree_inorder_traversal
@@ -36,6 +37,7 @@ leetcode.pascals_triangle_ii
 leetcode.path_sum
 leetcode.perform_string_shifts
 leetcode.plus_one
+leetcode.plus_one_linked_list
 leetcode.remove_duplicates_from_sorted_array
 leetcode.remove_duplicates_from_sorted_list
 leetcode.remove_element
