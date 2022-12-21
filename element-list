@@ -18,6 +18,8 @@ leetcode.flatten_a_multilevel_doubly_linked_list
 leetcode.implement_strstr
 leetcode.intersection_of_two_linked_lists
 leetcode.intervals_between_identical_elements
+leetcode.largest_rectangle_in_histogram
+leetcode.leetcode_132_pattern
 leetcode.leetcode_4sum_ii
 leetcode.length_of_last_word
 leetcode.linked_list_cycle
@@ -32,6 +34,7 @@ leetcode.merge_sorted_array
 leetcode.merge_two_sorted_lists
 leetcode.min_stack
 leetcode.minimum_depth_of_binary_tree
+leetcode.minimum_number_of_arrows_to_burst_balloons
 leetcode.palindrome_number
 leetcode.pascals_triangle
 leetcode.pascals_triangle_ii
@@ -42,11 +45,13 @@ leetcode.plus_one_linked_list
 leetcode.remove_duplicates_from_sorted_array
 leetcode.remove_duplicates_from_sorted_list
 leetcode.remove_element
+leetcode.remove_k_digits
 leetcode.reverse_integer
 leetcode.roman_to_integer
 leetcode.same_tree
 leetcode.search_insert_position
 leetcode.shortest_palindrome
+leetcode.shortest_subarray_with_sum_at_least_k
 leetcode.single_number
 leetcode.sqrtx
 leetcode.sum_of_all_odd_length_subarrays
@@ -56,7 +61,7 @@ leetcode.two_sum_ii_input_array_is_sorted
 leetcode.valid_palindrome
 leetcode.valid_parentheses
 leetcode.wildcard_matching
+leetcode.zigzag_iterator
 lintcode.get_length
-lintcode.lintcode2266
 lintcode.lintcode2329
 lintcode.lintcode2378
