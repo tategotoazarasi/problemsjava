@@ -7,16 +7,6 @@ import java.util.Map;
  * LeetCode 5962. 连接两字母单词得到的最长回文串
  */
 public class Solution {
-	boolean isPalindrome(String str) {
-		int i = 0, j = str.length() - 1;
-		while (i < j) {
-			if (str.charAt(i) != str.charAt(j)) {return false;}
-			i++;
-			j--;
-		}
-		return true;
-	}
-
 	public int longestPalindrome(String[] words) {
 		int                      count = 0;
 		HashMap<String, Integer> map   = new HashMap<>();
@@ -53,5 +43,15 @@ public class Solution {
 			}
 		}
 		return count + max;
+	}
+
+	boolean isPalindrome(String str) {
+		int i = 0, j = str.length() - 1;
+		while (i < j) {
+			if (str.charAt(i) != str.charAt(j)) {return false;}
+			i++;
+			j--;
+		}
+		return true;
 	}
 }
