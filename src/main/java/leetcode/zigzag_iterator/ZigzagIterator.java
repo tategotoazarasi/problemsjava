@@ -9,8 +9,8 @@ public class ZigzagIterator {
 	private final List<Integer> v1;
 	private final List<Integer> v2;
 	private       boolean       flag = true;
-	private int           i1   = 0;
-	private int           i2   = 0;
+	private       int           i1   = 0;
+	private       int           i2   = 0;
 
 	public ZigzagIterator(List<Integer> v1, List<Integer> v2) {
 		this.v1 = v1;
