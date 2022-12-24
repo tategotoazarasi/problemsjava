@@ -48,7 +48,7 @@ public class UnionFind<T> {
 	}
 
 	private T find(T t) {
-		if (parent.get(t) != t) {
+		if (!parent.get(t).equals(t)) {
 			parent.put(t, find(parent.get(t)));
 		}
 		return parent.get(t);
