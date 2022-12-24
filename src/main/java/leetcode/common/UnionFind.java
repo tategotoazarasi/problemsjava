@@ -21,6 +21,12 @@ public class UnionFind<T> {
 		}
 	}
 
+	public UnionFind(UnionFind<T> uf) {
+		this.parent.putAll(uf.parent);
+		this.rank.putAll(uf.rank);
+		this.size.putAll(uf.size);
+	}
+
 	public void unite(T tx, T ty) {
 		T x = find(tx);
 		T y = find(ty);
