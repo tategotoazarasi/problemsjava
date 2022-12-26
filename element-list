@@ -15,6 +15,7 @@ leetcode.climbing_stairs
 leetcode.common
 leetcode.convert_sorted_array_to_binary_search_tree
 leetcode.delete_leaves_with_a_given_value
+leetcode.design_add_and_search_words_data_structure
 leetcode.design_most_recently_used_queue
 leetcode.diameter_of_n_ary_tree
 leetcode.employee_free_time
@@ -27,6 +28,7 @@ leetcode.find_nearest_right_node_in_binary_tree
 leetcode.flatten_a_multilevel_doubly_linked_list
 leetcode.graph_valid_tree
 leetcode.implement_strstr
+leetcode.implement_trie_prefix_tree
 leetcode.intersection_of_two_linked_lists
 leetcode.intervals_between_identical_elements
 leetcode.kth_smallest_element_in_a_sorted_matrix
