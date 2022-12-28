@@ -30,4 +30,14 @@ public class Trie {
 		}
 		children.get(str.charAt(i)).insert(str, i + 1);
 	}
+
+	public boolean search(String word) {
+		Trie current = this;
+		int  i       = 0;
+		while (i < word.length() && current.children.containsKey(word.charAt(i))) {
+			current = current.children.get(word.charAt(i));
+			i++;
+		}
+		return i == word.length() && current.end;
+	}
 }
