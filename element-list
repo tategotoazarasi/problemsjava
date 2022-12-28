@@ -17,6 +17,7 @@ leetcode.convert_sorted_array_to_binary_search_tree
 leetcode.delete_leaves_with_a_given_value
 leetcode.design_add_and_search_words_data_structure
 leetcode.design_most_recently_used_queue
+leetcode.design_search_autocomplete_system
 leetcode.diameter_of_n_ary_tree
 leetcode.employee_free_time
 leetcode.execution_of_all_suffix_instructions_staying_in_a_grid
@@ -54,6 +55,7 @@ leetcode.minimum_number_of_arrows_to_burst_balloons
 leetcode.number_of_connected_components_in_an_undirected_graph
 leetcode.number_of_islands_ii
 leetcode.palindrome_number
+leetcode.palindrome_pairs
 leetcode.pascals_triangle
 leetcode.pascals_triangle_ii
 leetcode.path_sum
