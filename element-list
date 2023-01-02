@@ -44,6 +44,7 @@ leetcode.longest_palindrome_by_concatenating_two_letter_words
 leetcode.longest_word_with_all_prefixes
 leetcode.maximum_depth_of_binary_tree
 leetcode.maximum_number_of_words_found_in_sentences
+leetcode.maximum_product_subarray
 leetcode.maximum_subarray
 leetcode.maximum_twin_sum_of_a_linked_list
 leetcode.meeting_rooms_ii
@@ -86,6 +87,7 @@ leetcode.two_sum
 leetcode.two_sum_ii_input_array_is_sorted
 leetcode.valid_palindrome
 leetcode.valid_parentheses
+leetcode.wiggle_sort_ii
 leetcode.wildcard_matching
 leetcode.word_search_ii
 leetcode.zigzag_iterator
