@@ -34,7 +34,7 @@ class SolutionTest {
 
 	@Test
 	void ladderLength4() {
-		Assertions.assertEquals(3,
+		Assertions.assertEquals(11,
 		                        sol.ladderLength("cet",
 		                                         "ism",
 		                                         Arrays.asList("kid",

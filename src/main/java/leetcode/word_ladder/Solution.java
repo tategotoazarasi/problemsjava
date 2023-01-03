@@ -6,95 +6,81 @@ import java.util.*;
  * 127. 单词接龙
  */
 public class Solution {
-	private final Map<String, Node> nodes = new HashMap<>();
-	private       String            endWord;
-	private final Map<String, Integer> diffEndMap = new HashMap<>();
+	Map<String, Integer> wordId  = new HashMap<>();
+	List<List<Integer>>  edge    = new ArrayList<>();
+	int                  nodeNum = 0;
 
 	public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-		this.endWord = endWord;
 		for (String word : wordList) {
-			nodes.put(word, new Node(word));
+			addEdge(word);
 		}
-		if (!nodes.containsKey(endWord)) {
+		addEdge(beginWord);
+		if (!wordId.containsKey(endWord)) {
 			return 0;
 		}
-		for (int i = 0; i < wordList.size(); i++) {
-			String wordI = wordList.get(i);
-			for (int j = 1; j < wordList.size(); j++) {
-				String wordJ = wordList.get(j);
-				if (diff(wordI, wordJ) == 1) {
-					nodes.get(wordI).siblings.add(nodes.get(wordJ));
-					nodes.get(wordJ).siblings.add(nodes.get(wordI));
-				}
-			}
-		}
-		if (!nodes.containsKey(beginWord)) {
-			nodes.put(beginWord, new Node(beginWord));
-			for (String word : wordList) {
-				if (diff(beginWord, word) == 1) {
-					nodes.get(word).siblings.add(nodes.get(beginWord));
-					nodes.get(beginWord).siblings.add(nodes.get(word));
-				}
-			}
-		}
-		PriorityQueue<Frame>
-				pq =
-				new PriorityQueue<>((o1, o2) -> Integer.compare(o1.len + diffEnd(o1.node.word),
-				                                                o2.len + diffEnd(o2.node.word)));
-		pq.add(new Frame(1, nodes.get(beginWord)));
-		while (!pq.isEmpty()) {
-			Frame f = pq.poll();
-			if (f.node.word.equals(endWord)) {
-				return f.len;
-			}
-			if (f.len + diffEnd(f.node.word) > wordList.size()) {
-				return 0;
-			}
-			for (Node next : f.node.siblings) {
-				pq.add(new Frame(f.len + 1, next));
-			}
+
+		int[] disBegin = new int[nodeNum];
+		Arrays.fill(disBegin, Integer.MAX_VALUE);
+		int beginId = wordId.get(beginWord);
+		disBegin[beginId] = 0;
+		Queue<Integer> queBegin = new LinkedList<>();
+		queBegin.offer(beginId);
+
+		int[] disEnd = new int[nodeNum];
+		Arrays.fill(disEnd, Integer.MAX_VALUE);
+		int endId = wordId.get(endWord);
+		disEnd[endId] = 0;
+		Queue<Integer> queEnd = new LinkedList<>();
+		queEnd.offer(endId);
+
+		while (!queBegin.isEmpty() && !queEnd.isEmpty()) {
+			Integer nodeBegin = getInteger(disBegin, queBegin, disEnd);
+			if (nodeBegin != null) return nodeBegin;
+
+			Integer nodeEnd = getInteger(disEnd, queEnd, disBegin);
+			if (nodeEnd != null) return nodeEnd;
 		}
 		return 0;
 	}
 
-	private int diff(String w1, String w2) {
-		assert (w1.length() == w2.length());
-		int ans = 0;
-		for (int i = 0; i < w1.length(); i++) {
-			if (w1.charAt(i) != w2.charAt(i)) {
-				ans++;
+	public void addEdge(String word) {
+		addWord(word);
+		int    id1    = wordId.get(word);
+		char[] array  = word.toCharArray();
+		int    length = array.length;
+		for (int i = 0; i < length; ++i) {
+			char tmp = array[i];
+			array[i] = '*';
+			String newWord = new String(array);
+			addWord(newWord);
+			int id2 = wordId.get(newWord);
+			edge.get(id1).add(id2);
+			edge.get(id2).add(id1);
+			array[i] = tmp;
+		}
+	}
+
+	private Integer getInteger(int[] disBegin, Queue<Integer> queBegin, int[] disEnd) {
+		int queBeginSize = queBegin.size();
+		for (int i = 0; i < queBeginSize; ++i) {
+			int nodeBegin = queBegin.poll();
+			if (disEnd[nodeBegin] != Integer.MAX_VALUE) {
+				return (disBegin[nodeBegin] + disEnd[nodeBegin]) / 2 + 1;
+			}
+			for (int it : edge.get(nodeBegin)) {
+				if (disBegin[it] == Integer.MAX_VALUE) {
+					disBegin[it] = disBegin[nodeBegin] + 1;
+					queBegin.offer(it);
+				}
 			}
 		}
-		return ans;
+		return null;
 	}
 
-	private int diffEnd(String word) {
-		if (diffEndMap.containsKey(word)) {
-			return diffEndMap.get(word);
-		} else {
-			int diffValue = diff(word, endWord);
-			diffEndMap.put(word, diffValue);
-			return diffValue;
-		}
-	}
-
-	private class Node {
-		public String    word;
-		public Set<Node> siblings;
-
-		public Node(String word) {
-			this.word = word;
-			siblings  = new HashSet<>();
-		}
-	}
-
-	private class Frame {
-		public int  len;
-		public Node node;
-
-		public Frame(int len, Node node) {
-			this.len  = len;
-			this.node = node;
+	public void addWord(String word) {
+		if (!wordId.containsKey(word)) {
+			wordId.put(word, nodeNum++);
+			edge.add(new ArrayList<>());
 		}
 	}
 }
