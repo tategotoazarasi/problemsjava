@@ -89,6 +89,7 @@ leetcode.valid_palindrome
 leetcode.valid_parentheses
 leetcode.wiggle_sort_ii
 leetcode.wildcard_matching
+leetcode.word_ladder
 leetcode.word_search_ii
 leetcode.zigzag_iterator
 lintcode.get_length
